@@ -1,0 +1,37 @@
+.sidebar {
+    padding: 1rem;
+}
+
+.section {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 1rem;
+}
+
+.section:last-child {
+    border-bottom: none;
+}
+
+.section h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: var(--font-size-base);
+    color: var(--text-primary);
+}
+
+.subGroup {
+    margin-left: 0.5rem;
+    padding-left: 0.5rem;
+    border-left: 2px solid var(--border-color);
+    margin-top: 0.5rem;
+}
+
+.select {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-size: var(--font-size-sm);
+}

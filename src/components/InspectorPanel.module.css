@@ -1,0 +1,90 @@
+.container {
+    padding: 1rem;
+    height: 100%;
+}
+
+.section {
+    margin-bottom: 1.5rem;
+}
+
+.sectionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: var(--font-size-lg);
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.5rem;
+}
+
+h4 {
+    margin: 0;
+    font-size: var(--font-size-base);
+    color: var(--text-secondary);
+}
+
+.codeBlock {
+    background: var(--bg-tertiary);
+    padding: 1rem;
+    border-radius: 6px;
+    font-family: monospace;
+    font-size: var(--font-size-sm);
+    overflow-x: auto;
+    border: 1px solid var(--border-color);
+}
+
+.headerLine {
+    margin-bottom: 0.25rem;
+}
+
+.key {
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.value {
+    color: var(--text-primary);
+}
+
+.empty {
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+.console {
+    background: #222;
+    padding: 1rem;
+    border-radius: 6px;
+    font-family: monospace;
+    font-size: var(--font-size-sm);
+    min-height: 150px;
+    color: #eee;
+}
+
+.errorLog {
+    color: #ff6b6b;
+    margin-bottom: 0.5rem;
+    border-left: 2px solid #ff6b6b;
+    padding-left: 0.5rem;
+}
+
+.infoLog {
+    color: #888;
+}
+
+.iconButton {
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.iconButton:hover {
+    background: var(--bg-tertiary);
+    color: var(--text-primary);
+}
